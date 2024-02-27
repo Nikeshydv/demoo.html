@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+#awesome1{
+    position: absolute;
+    top: 30px;
+    padding-left: 5px;
+    color: rgb(164, 164, 164);
+    font-size: 30px;
+}
+
+.awesome{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 10px;
+    padding-top: 10px;
+    /* background-image: url("https://media.istockphoto.com/id/1530256492/vector/software-development-concept-laptop-with-open-screen-hanging-over-desk-coding-or-programming.jpg?s=612x612&w=0&k=20&c=LLywtLnfu5FETIvkaFjy_xcHnaIGmaKZYxcPKAoyPcA="); */
+  
+    
+}
+
+.navbar{
+    justify-content: space-evenly;
+    color: white;
+    font-size: 24px;
+    font-family: 'Protest Revolution', sans-serif;
+    margin: 18px 50px 20px;
+        
+
+}
+
+.startnav{
+    /* list-style: none; */
+    text-decoration: none;
+    display: flex;
+    padding: 4px 0px 0px 100px;
+    font-family: 'Protest Revolution', sans-serif;
+
+
+    
+    
+}
+.startnav li a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 60px 50px 10px;
+    color: white;
+     
+    
+}
+
+
+.bar{
+    border-radius: 10px;
+    padding: 30px 200px 25px 200px;
+}
+
+.hero{
+    border: px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    margin: 10px;
+    background-image: url("./coding.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#one{
+    /* padding: 00px 00px 60px; */
+    margin-bottom: 20px;
+    /* color: rgb(10, 223, 191); */
+    /* font-family: 'Protest Revolution', sans-serif; */
+/* font-family: 'Protest Strike', sans-serif; */
+font-family: inherit;
+font-weight: bolder;
+/* color: red; */
+}
+
+#two{
+    padding: 00px 00px 30px;
+    /* color: rgb(10, 223, 191); */
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+

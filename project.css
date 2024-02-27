@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+html{
+    overflow-x: hidden;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+.social{
+    
+    position: absolute;
+    top: 552px;
+    left: 221px;
+    font-size: 42px;
+    justify-content: space-evenly;
+
+}
+
+.social i{
+    font-size: 26px;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    
+    border-radius: 50%;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+.nav{
+    background-color: rgb(223, 213, 213);
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("./Llack\ and\ Red\ Simple\ Tips\ How\ To\ Be\ A\ Programmer\ Youtube\ Thumbnail\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* border: 2px solid rgb(240, 240, 240); */
+     
+}
+
+.navigation{
+    display: flex;
+    padding: 24px 00px 30px 300px;
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.navigation div a{
+    color:rgb(255, 255, 255);
+    padding: 100px 40px 60px 40px;
+    text-decoration: none;
+}
+
+#threedot{
+    position: absolute;
+    top: 24px;
+    left: 1330px;
+    font-size: 25px;
+    
+    
+}
+
+.cv li{
+    list-style-type: none;
+    margin: 11px 00px 00px 300px;
+}
+.cv li a{
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px 12px 12px  12px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    /* background-color: rgb(252, 255, 254) ; */
+    background-image: url("./coding.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    /* font-size: 50px; */
+    font-family: inherit;
+    padding: 100px 100px 00px 00px ;
+    color: white;
+}
+
+#hello{
+    font-family: 'Anton', sans-serif;
+}
+
+#name{
+    font-family: 'Anton', sans-serif;
+
+}
+
+#info{
+    padding: 35px 30px 00px 00px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#info a{
+    color: rgb(219, 92, 8);
+}
+
+#ADD{
+    padding: 10px 30px 00px 00px;
+    font-weight: bold;
+}
+
+#web{
+    font-weight: bolder;
+    padding: 00px 00px 00px 00px;
+}
+
+
+
+    
+
+

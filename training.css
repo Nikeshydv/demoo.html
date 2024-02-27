@@ -1,0 +1,23 @@
+.spinner{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: solid green;
+    border-radius: 50%;
+    border-top-color: blue;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    o%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+.div1{
+    background-color: rgba(255,0,0,0,1);
+}

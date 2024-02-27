@@ -1,0 +1,183 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("https://itemsstore.net/html/trito/img/hero/1.jpg");
+    overflow-x: hidden;
+}
+
+.midnav{
+    display: flex;
+    list-style-type:none;
+   
+}
+.midnav li a{
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(18, 17, 17);
+
+    
+}
+
+.startnav{
+
+list-style-type: none;
+}
+
+.startnav li img{
+    width: 100px;
+}
+
+.endnav {
+    list-style-type: none;
+    
+}
+
+.endnav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 30, 30);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    
+    
+}
+
+/* end of v=nav bar */
+
+/* start of hero section */
+
+.hero{
+    border: 2px solid rgb(19, 18, 18);
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://itemsstore.net/html/trito/img/hero/1.jpg");
+    padding-top: 100px;
+
+}
+
+.hero div img{
+    width: 500px;
+    position: relative;
+    z-index: 3;
+    
+    
+
+}
+
+.hero.hero1{
+    padding-top: 100px;
+    
+    
+    
+}
+ .midhero li a{
+    color:rgb(22, 20, 20);
+    text-decoration: none;
+    margin-right: 33px;
+    border-radius: 5px;
+    padding: 20px 5px 5px 20px;
+    font-size: 18px;
+    
+    
+    
+    
+    
+    
+ }
+
+ .midhero{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0px 10px 10px;
+}
+
+.hello{
+    background-color: white;
+    border-radius: 2px;
+    padding: 10px 0px 10px 10px;
+    font-size: 18px;
+}
+
+#awesome i{
+    font-size: 20px;
+    margin: 9px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#awesome{
+    position: absolute;
+    top: 600px;
+    left: 1290px;
+    z-index: 4;
+}
+
+.client{
+    /* border: 2px black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px 50px 100px;
+    background-color: rgb(46, 46, 66);
+    
+    
+}
+
+.clienth1{
+    background-color: rgb(46, 46, 66);
+    margin: 0px;
+    padding: 30px;
+    color: white;
+}
+
+
+ .middle{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:15px;
+    padding: 20px 10px 20px 0px;
+    
+ }
+
+.text{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.skill{
+    border: 2px solid black;
+    background-image: url("https://itemsstore.net/html/trito/img/hero/1.jpg");
+
+}
+
+.skill div{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: rgb(22, 21, 21);
+    border: 2px solid black;
+    padding: 12px 20px 15px 45px;
+    margin: 20px 10px 50px 510px;
+    padding:0%
+    p
+    
+}
+
+@media(max-width:390px){
+    
+}
+
+.text.skill div{
+    border: 2px rgb(0, 0, 0);
+}
+ 
